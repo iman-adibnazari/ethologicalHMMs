@@ -1,0 +1,12 @@
+{
+	"name": "PictureProcessor",
+	"dockerFile": "./Dockerfile",
+	"appPort": 9001,
+	"context": ".",
+    "extensions": [
+        "ms-python.python"
+	],
+	"settings": {
+		"python.pythonPath": "/usr/local/bin/python"
+	}
+}
